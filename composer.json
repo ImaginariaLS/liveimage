@@ -1,0 +1,21 @@
+{
+    "name": "imaginaria/liveimage",
+    "description": "Imaginaria::LiveImage, library for working with images",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Imaginaria\\LiveImage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karel Wintersky",
+            "email": "karel.wintersky@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-gd": "*",
+        "ext-mbstring": "*"
+    }
+}
